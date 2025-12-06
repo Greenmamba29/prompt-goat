@@ -7,6 +7,9 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { Library, Megaphone, TrendingUp, PenTool, Search, ShoppingCart, Zap, GraduationCap, DollarSign, Rocket, Palette } from 'lucide-react'
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 interface CategoryWithCount {
   id: string;
   slug: string;
