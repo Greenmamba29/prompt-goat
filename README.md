@@ -17,6 +17,7 @@ A modern SaaS platform for discovering and managing AI prompts across multiple m
 - 📊 **Usage Analytics** - Track prompt usage and popularity
 - 💳 **Subscription Plans** - Lifetime, monthly, and yearly options
 - 🎨 **Modern UI** - Built with TailwindCSS and Lucide icons
+- 🕷️ **Universal Scraper Protocol (USP)** - Python-based framework for scraping prompts from multiple sources
 
 ## 🚀 Quick Start
 
@@ -101,9 +102,17 @@ See [DEPLOYMENT.md](./DEPLOYMENT.md) for complete deployment instructions.
 
 ## 📚 Documentation
 
+### Main Application
 - [PROJECT_ANALYSIS.md](./PROJECT_ANALYSIS.md) - Architecture and technical analysis
 - [DEPLOYMENT.md](./DEPLOYMENT.md) - Detailed deployment guide
 - `.env.example` - Environment variable template
+
+### Universal Scraper Protocol (USP)
+- [USP Overview](./docs/usp/README.md) - Introduction and features
+- [Quick Start Guide](./docs/usp/QUICK_START.md) - Get started in 5 minutes
+- [Architecture](./docs/usp/USP_ARCHITECTURE.md) - System design and components
+- [MetricMule Setup](./docs/usp/METRICMULE_SETUP.md) - MetricMule scraper guide
+- [Add New Scrapers](./docs/usp/ADD_NEW_SCRAPER.md) - Developer guide for new scrapers
 
 ## 🔐 Security
 
